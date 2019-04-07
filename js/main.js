@@ -20,7 +20,8 @@ document.querySelector(".search").addEventListener('submit', function(event){
 
 
 var renderIssues = () => {
-    let url = 'https://comicvine.gamespot.com/api/issues/?api_key=' + apiKey + '&filter=name:' + keywords + '&number_of_page_results=10&format=json'
+    let url = 'https://www.comicvine.com/api/issues/?api_key=' + apiKey + '&filter=name:' + keywords + '&number_of_page_results=10&format=json'
+    //let url = 'https://comicvine.gamespot.com/api/issues/?api_key=' + apiKey + '&filter=name:' + keywords + '&number_of_page_results=10&format=json'
     //url=`https://comicvine.gamespot.com/api/issues/?api_key='${apiKey}'&filter=name:${keywords}&format=json`
     console.log(url)
     const issueResults = new Vue({
