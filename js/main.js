@@ -1,4 +1,4 @@
-let apiKey = 'a4bf5183ed7a55cb90844ebdf3b57749e4eeed93';
+let apiKey = 'c2d76f30b6cf694a426e76bd66967a255255f2de';
 let keywords;
 
 //Capture search keywords
